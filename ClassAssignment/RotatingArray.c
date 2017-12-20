@@ -1,4 +1,7 @@
 #include<stdio.h>
+void l1(int a[], int n);
+void l2(int a[], int d, int n);
+void display(int a[], int size);
 int main(void)
 {
 	int a[] = {1, 2, 3, 4, 5, 6, 7,8,9};
@@ -6,8 +9,6 @@ int main(void)
 	display(a,9);
 	getchar();
 }
-void l1(int a[], int n);
-void l2(int a[], int d, int n);
 void l2(int a[], int d, int n)
 {
 	int i;
